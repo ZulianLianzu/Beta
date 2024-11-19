@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+    overflow-x: none;
+    z-index: auto;    
+    box-shadow: #f1916D;    
+    
+}
+
+.s1{
+    width: 100%;
+    height:45vh ;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    background: 
+    url(../foto/header2.jpg);
+    background-size: cover;    
+    background-position: center;
+    clip-path:polygon(
+        0 0,
+        100% 0, 
+        100% 100%,
+        0 80%
+    );
+    color:black;   
+
+}
+.s1 h1{
+font-size: 45px;
+}
+
+.s2{
+    width: 100%;
+    height: 300px;   
+    font-size: 20px;       
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;   
+    
+ 
+   }
+.s2 div{
+    width: 46% ;
+    height: 100%;
+  
+    justify-content: center;
+    align-items: center;
+}
+.img-s2{
+background:url(../foto/entrega2.jpg);
+width: 400px;
+height: 400px;
+background-position:center ;
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+.text-s2{
+    
+  
+    position: static;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.s3{
+   
+    width: 100%;
+    height: 300px;   
+    font-size: 20px;       
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;   
+    
+}
+.s3 div{   
+    width: 46% ;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-s3{
+    background: url(../foto//products.jpg);
+    width: 400px;
+    height: 400px;   
+    background-position:center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text-s3{
+
+    position: static;
+    width: 50%;
+    height: 50%;
+   
+}
+.s4{
+    width: 100%;
+    height:1000px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    clip-path:polygon(
+        0% 0%,
+        100% 5%, 
+        100% 100%,
+        0% 100%
+    );
+    
+
+}
+.box-s4{
+    margin-top: 40px;
+    width: 150px;
+    height: 250px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;  
+
+}
+.boxy-s4-1{
+   
+    width: 100%;
+    height: 90%;  
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px; 
+    border-bottom-left-radius:17px ;
+    border-bottom-right-radius:17px ;     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-image: url(../foto/ubi.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 15px gray;
+}
+.boxy-s4-2{
+    width: 100%;
+    height: 90%;    
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px; 
+    border-bottom-left-radius:17px ;
+    border-bottom-right-radius:17px ;     
+    background: url(../foto/pago.jpg);
+    background-position: center;    
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    box-shadow: 2px 2px 15px gray;
+}
+.boxy-s4-3{
+    width: 100%;
+    height: 90%; 
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px; 
+    border-bottom-left-radius:17px ;
+    border-bottom-right-radius:17px ;     
+    background: url(../foto/tienda.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    box-shadow: 2px 2px 15px gray;
+}
+
+.boxy-s4-4{
+    width: 100%;
+    height: 90%;    
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px; 
+    border-bottom-left-radius:17px ;
+    border-bottom-right-radius:17px ;   
+    
+    background: url(../foto//atencion.jpg);
+   
+    background-position: center;
+    background-size: cover; display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    box-shadow: 2px 2px 15px gray;
+}
+.text-s4{
+    display: flex;
+    text-align: center;
+}
+.s4 button{
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.s5{   
+    width: 100%;
+    height: 300px;   
+    font-size: 20px;       
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;    
+}
+
+.foto-s5{
+    width: 400px;
+    height: 400px;
+    background: url(../foto/satisfecha.jpg);
+    background-position:center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.texto-s5{
+ 
+    
+    border: 2px solid black;
+    position: static;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.img-s5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+    position: relative;
+    top: -30px;
+}
+.p-s5{
+    font-size: 5vh;
+    text-align: justify;
+    color: white;
+}
+.s6{
+    width: 100%;
+    height:30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    clip-path:polygon(
+        0% 0%,
+        100% 25%, 
+        100% 100%,
+        0% 100%
+    );   
+    background: url(../foto/mancha2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    box-shadow: 2px 2px 15px gray;
+}
